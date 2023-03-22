@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <script src="./lib/underscore-esm.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/underscore@latest/underscore-umd-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+var users;
+</script>
+<script>
+// axios.get('https://swapi.dev/api/people/').then(res=>console.log(res)) ;
+// axios.get("https://dummyjson.com/products").then(res=>console.log(res))
+axios.get("https://dummyjson.com/users").then(res=> users=res.data.users );
+
+
+</script>
+
+<body>
+    
+</body>
+</html>
